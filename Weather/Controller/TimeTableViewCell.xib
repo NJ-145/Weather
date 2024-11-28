@@ -53,8 +53,8 @@
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thermometer.medium" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="JyD-2d-7uJ">
                         <rect key="frame" x="20" y="97" width="36" height="33.333333333333343"/>
                     </imageView>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="humidity.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="VqC-X2-Qp6">
-                        <rect key="frame" x="20" y="140.66666666666666" width="36.333333333333329" height="30.333333333333343"/>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud.rain.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="VqC-X2-Qp6">
+                        <rect key="frame" x="20" y="137.66666666666666" width="36" height="34.000000000000028"/>
                     </imageView>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="figure" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="qAP-cu-eHd">
                         <rect key="frame" x="20" y="179.33333333333334" width="36" height="32.999999999999972"/>
@@ -117,8 +117,8 @@
     </objects>
     <resources>
         <image name="cloud.fill" catalog="system" width="128" height="87"/>
+        <image name="cloud.rain.fill" catalog="system" width="126" height="128"/>
         <image name="figure" catalog="system" width="117" height="128"/>
-        <image name="humidity.fill" catalog="system" width="128" height="106"/>
         <image name="thermometer.medium" catalog="system" width="80" height="128"/>
     </resources>
 </document>

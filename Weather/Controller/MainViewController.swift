@@ -77,7 +77,7 @@ class MainViewController: UIViewController {
                 // 整理每段時間的資料到 DisplayWeather
                 displayData = zip(wxTimes.indices, wxTimes).map { index, wxTime in
                     return DisplayWeather(
-                        time: formatTimeRange(startTime: wxTime.startTime, endTime: wxTime.endTime), 
+                        time: formatTimeRange(startTime: wxTime.startTime, endTime: wxTime.endTime),
                         weather: wxTime.parameter.parameterName,
                         rainProbability: popTimes[index].parameter.parameterName,
                         temperature: "最低 \(minTTimes[index].parameter.parameterName)°C / 最高 \(maxTTimes[index].parameter.parameterName)°C",
@@ -98,7 +98,7 @@ class MainViewController: UIViewController {
 
     func formatTimeRange(startTime: String, endTime: String) -> String {
         let inputFormatter = DateFormatter()
-        inputFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss" // API 返回的時間格式
+        inputFormatter.dateFormat = "yyy⋯⋯y-MM-dd HH:mm:ss" // API 返回的時間格式
         
         let outputFormatter = DateFormatter()
         outputFormatter.dateFormat = "MM/dd HH:mm" // 希望的顯示格式
